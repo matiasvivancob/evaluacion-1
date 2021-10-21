@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;1,700&display=swap');
+
+:root {
+    --bs-body-font-family: "Merriweather", sans-serif;
+    --bs-body-font-size: 1rem;
+    --bs-body-font-weight: 300;
+    --bs-body-bg: #fff;
+}
+
+p{
+	font-family: "Inter", sans-serif;
+
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: 700;
+    color: white;
+},
+
+strong {
+    font-weight: 500;
+    color: black;
+}
+
+.blanquito{
+    filter: invert(48%) saturate(0%) brightness(200%);
+}
+
+#fotoheader {
+    height: 70vh;
+    background-image: url("img/pixel.jpg"), linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.8));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
